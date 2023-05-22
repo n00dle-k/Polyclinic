@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="935.0" style="-fx-background-color: #DCDCDC;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forms.AllPatient">
+    <children>
+        <TableView fx:id="TablePatient" layoutY="33.0" prefHeight="449.0" prefWidth="935.0" AnchorPane.bottomAnchor="28.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="33.0">
+            <columns>
+                <TableColumn fx:id="patient_id" prefWidth="41.60000455379486" text="ID" />
+                <TableColumn fx:id="last_name" prefWidth="99.19998931884766" text="Фамилия" />
+            <TableColumn fx:id="first_name" prefWidth="98.39996337890625" text="Имя" />
+                <TableColumn fx:id="midle_name" prefWidth="108.800048828125" text="Отчество" />
+                <TableColumn fx:id="birth_date" prefWidth="105.60003662109375" text="Дата рождения" />
+                <TableColumn fx:id="phone" prefWidth="107.19998168945312" text="Номер телефона" />
+                <TableColumn fx:id="address" minWidth="0.0" prefWidth="116.0" text="Адрес" />
+                <TableColumn fx:id="num_passport" prefWidth="91.199951171875" text="Паспортные данные" />
+                <TableColumn fx:id="snils" prefWidth="75.9998779296875" text="СНИЛС" />
+                <TableColumn fx:id="med_policy" prefWidth="86.39990234375" text="Полис ОМС" />
+            </columns>
+        </TableView>
+      <Button fx:id="AddPatient" layoutX="14.0" layoutY="483.0" mnemonicParsing="false" text="Добавить пациента" />
+      <Button fx:id="back" layoutX="872.0" layoutY="2.0" mnemonicParsing="false" text="Выйти" />
+      <TextField fx:id="findField" layoutX="14.0" layoutY="1.0" promptText="Введите фамилию" />
+      <Button fx:id="findButton" layoutX="164.0" layoutY="1.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="55.0" text="Поиск" />
+    </children>
+</AnchorPane>

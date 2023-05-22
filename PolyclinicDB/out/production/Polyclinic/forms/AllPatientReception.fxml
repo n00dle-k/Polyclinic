@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="921.0" style="-fx-background-color: #DCDCDC;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forms.AllPatientReception">
+    <children>
+        <TableView fx:id="TableReception" layoutY="31.0" prefHeight="448.0" prefWidth="923.0" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="31.0">
+            <columns>
+            <TableColumn fx:id="recep_log_id" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="recep_date" prefWidth="178.40002745389938" text="Дата приема" />
+                <TableColumn fx:id="diagnosys" minWidth="4.79998779296875" prefWidth="328.7999725341797" text="Диагноз" />
+                <TableColumn fx:id="treatment" minWidth="0.0" prefWidth="411.199951171875" text="Лечение" />
+            </columns>
+        </TableView>
+        <Button fx:id="back" layoutX="857.0" layoutY="2.0" mnemonicParsing="false" text="Назад" />
+    </children>
+</AnchorPane>

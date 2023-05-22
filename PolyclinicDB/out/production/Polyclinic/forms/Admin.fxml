@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #DCDCDC;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forms.Admin">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFFAFA;">
+            <children>
+                <MenuBar fx:id="adminMenu" prefHeight="46.0" prefWidth="600.0">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="Список сотрудников">
+                            <items>
+                                <MenuItem fx:id="openList" mnemonicParsing="false" onAction="#openEmployee" text="Открыть" />
+                            </items>
+                        </Menu>
+                  <Menu mnemonicParsing="false" text="Действия с БД">
+                    <items>
+                        <MenuItem fx:id="dump" mnemonicParsing="false" text="Выгрузка БД" />
+                      <MenuItem fx:id="restore" mnemonicParsing="false" text="Восстановление БД" />
+                    </items>
+                  </Menu>
+                    </menus>
+                </MenuBar>
+                <Button fx:id="exit" layoutX="535.0" layoutY="360.0" mnemonicParsing="false" text="Выйти" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="723.0" style="-fx-background-color: #DCDCDC;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forms.PatientReception">
+    <children>
+        <AnchorPane layoutY="27.0" prefHeight="474.0" prefWidth="723.0" style="-fx-background-color: #FFFAFA;">
+            <children>
+                <TextField fx:id="last_name" layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="311.0" promptText="Фамилия пациента" />
+            <TextField fx:id="symptoms" layoutX="14.0" layoutY="149.0" prefHeight="176.0" prefWidth="311.0" promptText="Жалобы" />
+            <TextField fx:id="treatment" layoutX="385.0" layoutY="57.0" prefHeight="267.0" prefWidth="323.0" promptText="Лечение" />
+            <TextField fx:id="diagnosis" layoutX="385.0" layoutY="14.0" prefHeight="26.0" prefWidth="323.0" promptText="Диагноз" />
+            <TextField fx:id="midle_name" layoutX="14.0" layoutY="96.0" prefHeight="26.0" prefWidth="311.0" promptText="Отчество пациента" />
+            <TextField fx:id="first_name" layoutX="14.0" layoutY="57.0" prefHeight="26.0" prefWidth="311.0" promptText="Имя пациента" />
+            <Button fx:id="back" layoutX="14.0" layoutY="435.0" mnemonicParsing="false" text="Назад" />
+            <Button fx:id="addButton" layoutX="642.0" layoutY="435.0" mnemonicParsing="false" text="Добавить" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #DCDCDC;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forms.NewPatientForm">
+    <children>
+        <AnchorPane layoutY="28.0" prefHeight="372.0" prefWidth="600.0" style="-fx-background-color: #FFFAFA;">
+            <children>
+                <TextField fx:id="firstNameField" layoutX="48.0" layoutY="20.0" prefHeight="26.0" prefWidth="221.0" promptText="Имя" />
+                <TextField fx:id="lastNameField" layoutX="75.0" layoutY="76.0" prefHeight="26.0" prefWidth="194.0" promptText="Фамилия" />
+                <TextField fx:id="midleNameField" layoutX="75.0" layoutY="130.0" prefHeight="26.0" prefWidth="194.0" promptText="Отчество" />
+                <TextField fx:id="birthDateField" layoutX="111.0" layoutY="191.0" prefHeight="26.0" prefWidth="158.0" promptText="Дата рождения" />
+                <TextField fx:id="phoneField" layoutX="119.0" layoutY="255.0" promptText="Номер телефона" />
+                <TextField fx:id="addresField" layoutX="343.0" layoutY="21.0" prefHeight="82.0" prefWidth="230.0" promptText="Адрес" />
+                <TextField fx:id="passportField" layoutX="422.0" layoutY="131.0" prefHeight="26.0" prefWidth="150.0" promptText="Серия и номер паспорта" />
+                <TextField fx:id="snilsField" layoutX="351.0" layoutY="192.0" prefHeight="26.0" prefWidth="222.0" promptText="СНИЛС" />
+                <TextField fx:id="policyField" layoutX="380.0" layoutY="256.0" prefHeight="26.0" prefWidth="194.0" promptText="Полис ОМС" />
+            <Label layoutX="14.0" layoutY="24.0" text="Имя:" />
+            <Label layoutX="14.0" layoutY="80.0" text="Фамилия:" />
+            <Label layoutX="14.0" layoutY="134.0" text="Отчество:" />
+            <Label layoutX="14.0" layoutY="195.0" text="Дата рождения:" />
+            <Label layoutX="14.0" layoutY="259.0" text="Номер телефона:" />
+            <Label layoutX="300.0" layoutY="24.0" text="Адрес:" />
+            <Label layoutX="300.0" layoutY="135.0" text="Паспортные данные:" />
+            <Label layoutX="300.0" layoutY="195.0" text="СНИЛС:" />
+            <Label layoutX="300.0" layoutY="260.0" text="Полис ОМС:" />
+            <Button fx:id="addButton" layoutX="523.0" layoutY="333.0" mnemonicParsing="false" text="Добавить" />
+            <Button fx:id="back" layoutX="15.0" layoutY="333.0" mnemonicParsing="false" text="Назад" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="14.0" layoutY="6.0" prefHeight="18.0" prefWidth="167.0" text="Введите данные о пациенте:" />
+    </children>
+</AnchorPane>

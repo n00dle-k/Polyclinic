@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="214.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Context.ContextEmployee">
+   <children>
+      <Button fx:id="deleteEmployee" layoutX="14.0" layoutY="42.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="411.0" text="Удалить данные сотрудника" />
+      <Button fx:id="changeEmployee" layoutX="14.0" layoutY="126.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="411.0" text="Изменить данные сотрудника" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="122.0" prefWidth="314.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dialog.AddPatientError">
+    <children>
+        <Label layoutX="20.0" layoutY="22.0" prefHeight="58.0" prefWidth="279.0" text="Проверьте введенные данные">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
